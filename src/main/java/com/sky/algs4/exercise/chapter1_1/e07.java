@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 /**
  * Created by zhouff on 14/11/2017.
  */
-public class e7 {
+public class e07 {
 
     public static void a(){
         double t=9.0;

@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 /**
  * Created by zhouff on 14/11/2017.
  */
-public class e1 {
+public class e01 {
     public static void main(String[] args){
         //a
         StdOut.println((0+15)/2);

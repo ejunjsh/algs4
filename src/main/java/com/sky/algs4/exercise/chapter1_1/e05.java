@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 /**
  * Created by zhouff on 14/11/2017.
  */
-public class e5 {
+public class e05 {
 
 public  static  boolean check(double x,double y){
     if(x<=1&&x>=0&&y<=1&&y>=0){

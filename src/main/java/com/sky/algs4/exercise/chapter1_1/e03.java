@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 /**
  * Created by zhouff on 14/11/2017.
  */
-public class e3 {
+public class e03 {
 
 
     public static void main(String[] args) {

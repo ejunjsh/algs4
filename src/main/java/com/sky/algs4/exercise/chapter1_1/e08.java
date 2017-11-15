@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 /**
  * Created by zhouff on 14/11/2017.
  */
-public class e8 {
+public class e08 {
     public static void main(String[] args){
         //a
         System.out.println('b');

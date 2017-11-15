@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 /**
  * Created by zhouff on 14/11/2017.
  */
-public class e2 {
+public class e02 {
     public static String getType(Object o){
         return o.getClass().toString();
     }

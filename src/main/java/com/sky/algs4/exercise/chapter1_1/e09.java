@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 /**
  * Created by zhouff on 14/11/2017.
  */
-public class e9 {
+public class e09 {
 
     public static String BinaryString(int N){
         String s="";
