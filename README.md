@@ -22,8 +22,8 @@ this place is where i take notes from book "algs4"
     * [基础](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Quick.java)
     * [三向切分](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Quick3way.java)
 * 2.6 优先队列
-    * [基于堆的]((https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/MaxPQ.java))
-    * [有索引并基于堆的]((https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/IndexMaxPQ.java))
+    * [基于堆的](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/MaxPQ.java)
+    * [有索引并基于堆的](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/IndexMaxPQ.java)
 * 2.7 [堆排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Heap.java)
 
 # chapter03 查找
