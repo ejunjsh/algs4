@@ -1,7 +1,7 @@
 # algs4
 this place is where i take notes from book "algs4"
 
-# chapter01
+# chapter01 基础
 * 1.1 [下压（LIFO）栈（能够动态调整数组大小的实现）](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/ResizingArrayStack.java)
 * 1.2 [下压堆栈（链表实现）](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Stack.java)
 * 1.3 [先进先出队列](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Queue.java)
@@ -11,7 +11,7 @@ this place is where i take notes from book "algs4"
     * [quick-union算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/QuickUnionUF.java)
     * [加权quick-union算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/WeightedQuickUnionUF.java)
 
-# chapter02
+# chapter02 排序
 * 2.1 [选择排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Selection.java)
 * 2.2 [插入排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Insertion.java)
 * 2.3 [希尔排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Shell.java)
@@ -24,9 +24,9 @@ this place is where i take notes from book "algs4"
 * 2.6 优先队列
     * [基于堆的]((https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/MaxPQ.java))
     * [有索引并基于堆的]((https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/IndexMaxPQ.java))
-* 2.7 [堆排序]((https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Heap.java))
+* 2.7 [堆排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Heap.java)
 
-# chapter03
+# chapter03 查找
 * 3.1 [顺序查找（基于无序链表）](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/SequentialSearchST.java)
 * 3.2 [二分查找（基于有序数组）](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/BinarySearchST.java)
 * 3.3 [基于二叉查找树的符号表](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/BST.java)
