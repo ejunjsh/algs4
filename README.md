@@ -34,3 +34,6 @@ this place is where i take notes from book "algs4"
 * 3.5 [基于拉链法的散列表](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/SeparateChainingHashST.java)
 * 3.6 [基于线性探测的散列表](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/LinearProbingHashST.java)
 
+# chapter04 图
+* 4.1 [深度优先搜索(DFS)查找图中的路径](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DepthFirstPaths.java)
+* 4.2 [广度优先搜索(BFS)查找图中的路径](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/BreadthFirstPaths.java)
