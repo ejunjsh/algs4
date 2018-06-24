@@ -10,6 +10,14 @@ this place is where i take notes from book "algs4"
     * [quick-find算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/QuickFindUF.java)
     * [quick-union算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/QuickUnionUF.java)
     * [加权quick-union算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/WeightedQuickUnionUF.java)
+    
+  算法|构造函数|union()|find()
+  ----|------|-------|-------
+  quick-find算法|N|N|1
+  quick-union算法|N|树的高度|树的高度
+  加权quick-union算法|N|lgN|lgN
+
+
 
 # chapter02 排序
 * 2.1 [选择排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Selection.java)
@@ -25,6 +33,17 @@ this place is where i take notes from book "algs4"
     * [基于堆的](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/MaxPQ.java)
     * [有索引并基于堆的](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/IndexMaxPQ.java)
 * 2.7 [堆排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Heap.java)
+
+算法|是否稳定|是否为原地排序|时间复杂度|空间复杂度|备注
+---|-------|------------|-------|--------|-----
+选择排序|否|是|N^2|1|
+插入排序|是|是|介于N和N^2之间|1|取决于输入元素度排列情况
+希尔排序|否|是|NlogN? or N^6/5|1|
+快速排序|否|是|NlogN|lgN|运行效率由概率提供保证
+三向快速排序|否|是|介于N和NlogN之间|lgN|运行效率有概率保证，同时也取决于输入元素的分布情况
+归并排序|是|否|NlogN|N|
+堆排序|否|是|NlogN|1|
+
 
 # chapter03 查找
 * 3.1 [顺序查找（基于无序链表）](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/SequentialSearchST.java)
