@@ -10,6 +10,8 @@ this place is where i take notes from book "algs4"
     * [quick-find算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/QuickFindUF.java)
     * [quick-union算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/QuickUnionUF.java)
     * [加权quick-union算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/WeightedQuickUnionUF.java)
+
+
     
   算法|构造函数|union()|find()
   ----|------|-------|-------
@@ -34,6 +36,8 @@ this place is where i take notes from book "algs4"
     * [有索引并基于堆的](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/IndexMaxPQ.java)
 * 2.7 [堆排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Heap.java)
 
+
+
 算法|是否稳定|是否为原地排序|时间复杂度|空间复杂度|备注
 ---|-------|------------|-------|--------|-----
 选择排序|否|是|N^2|1|
@@ -52,6 +56,16 @@ this place is where i take notes from book "algs4"
 * 3.4 [基于红黑树的符号表](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/RedBlackBST.java)
 * 3.5 [基于拉链法的散列表](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/SeparateChainingHashST.java)
 * 3.6 [基于线性探测的散列表](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/LinearProbingHashST.java)
+
+
+算法（数据结构）| 最坏情况下的运行时间的增长数量级（N次插入之后）(查找:插入)|平均情况下的运行时间的增长数量级（N次随机插入之后）(查找命中:插入)|关键接口|内存使用(字节)
+-------------|---------------------|--------------------------|-----------------|---------
+顺序查找(无序链表)|N:N |N/2:N| equals()|48N
+二分查找(有序数组)|lgN:N|lgN:N/2|compareTo()|16N
+二叉树查找(二叉查找树)|N:N|1.39lgN:1.39lgN|compareTo()|64N
+2-3树查找(红黑树)|2lgN:2lgN|1.00lgN:1.00lgN|compareTo()|64N
+拉链法(链表数组) |<lgN:<lgN|N/(2M):N/M |equals() hashCode()| 48N+32M
+线性探测法(并行数组)|clgN:clgN| <1.5:<2.5|equals() hashCode()| 在32N和128N之间
 
 # chapter04 图
 * 4.1 [深度优先搜索(DFS)查找图中的路径](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DepthFirstPaths.java)
