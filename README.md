@@ -13,11 +13,11 @@ this place is where i take notes from book "algs4"
 
 
     
-  算法|构造函数|union()|find()
-  ----|------|-------|-------
-  quick-find算法|N|N|1
-  quick-union算法|N|树的高度|树的高度
-  加权quick-union算法|N|lgN|lgN
+算法|构造函数|union()|find()
+----|------|-------|-------
+quick-find算法|N|N|1
+quick-union算法|N|树的高度|树的高度
+加权quick-union算法|N|lgN|lgN
 
 
 
@@ -58,7 +58,7 @@ this place is where i take notes from book "algs4"
 * 3.6 [基于线性探测的散列表](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/LinearProbingHashST.java)
 
 
-算法（数据结构）| 最坏情况下的运行时间的增长数量级（N次插入之后）(查找:插入)|平均情况下的运行时间的增长数量级（N次随机插入之后）(查找命中:插入)|关键接口|内存使用(字节)
+算法（数据结构）| 最坏情况下的运行时间的增长数量级（N次插入之后）       (查找:插入)|平均情况下的运行时间的增长数量级（N次随机插入之后）         (查找命中:插入)|关键接口|内存使用(字节)
 -------------|---------------------|--------------------------|-----------------|---------
 顺序查找(无序链表)|N:N |N/2:N| equals()|48N
 二分查找(有序数组)|lgN:N|lgN:N/2|compareTo()|16N
