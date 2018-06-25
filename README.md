@@ -58,7 +58,7 @@ quick-union算法|N|树的高度|树的高度
 * 3.6 [基于线性探测的散列表](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/LinearProbingHashST.java)
 
 
-算法（数据结构）| 最坏情况下的运行时间的增长数量级（N次插入之后）       (查找:插入)|平均情况下的运行时间的增长数量级（N次随机插入之后）         (查找命中:插入)|关键接口|内存使用(字节)
+算法（数据结构）| 最坏情况下的运行时间的增长数量级（N次插入之后）(查找:插入)|平均情况下的运行时间的增长数量级（N次随机插入之后）(查找命中:插入)|关键接口|内存使用(字节)
 -------------|---------------------|--------------------------|-----------------|---------
 顺序查找(无序链表)|N:N |N/2:N| equals()|48N
 二分查找(有序数组)|lgN:N|lgN:N/2|compareTo()|16N
@@ -70,3 +70,12 @@ quick-union算法|N|树的高度|树的高度
 # chapter04 图
 * 4.1 [深度优先搜索(DFS)查找图中的路径](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DepthFirstPaths.java)
 * 4.2 [广度优先搜索(BFS)查找图中的路径](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/BreadthFirstPaths.java)
+
+问题|解决方法
+-----|--------
+单点连通性|[DepthFirstSearch](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DepthFirstSearch.java)
+单点路径|[DepthFirstPaths](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DepthFirstPaths.java)
+单点最短路径|[BreadthFirstPaths](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/BreadthFirstPaths.java)
+连通性|[CC](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/CC.java)
+检测环|[Cycle](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Cycle.java)
+双色问题（图的二分性）|[TwoColor](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TwoColor.java)
