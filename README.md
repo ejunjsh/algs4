@@ -70,6 +70,7 @@ quick-union算法|N|树的高度|树的高度
 # chapter04 图
 * 4.1 [深度优先搜索(DFS)查找图中的路径](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DepthFirstPaths.java)
 * 4.2 [广度优先搜索(BFS)查找图中的路径](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/BreadthFirstPaths.java)
+* 4.3 [使用深度优先搜索找出图中的所有连通分量](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/CC.java)
 
 问题|解决方法
 -----|--------
@@ -79,3 +80,19 @@ quick-union算法|N|树的高度|树的高度
 连通性|[CC](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/CC.java)
 检测环|[Cycle](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Cycle.java)
 双色问题（图的二分性）|[TwoColor](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TwoColor.java)
+
+* 4.4 [有向图的可达性](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DirectedDFS.java)
+* 4.5 [拓扑排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Topological.java)
+* 4.6 [计算强连通分量的Kosaraju算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/KosarajuSharirSCC.java)
+
+问题|解决方案
+----|------
+单点和多点的可达性|[DirectedDFS](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DirectedDFS.java)
+单点有向路径|[DepthFirstDirectedPaths](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DepthFirstDirectedPaths.java)
+单点最短有向路径|[BreadthFirstDirectedPaths](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/BreadthFirstDirectedPaths.java)
+有向环检测|[DirectedCycle](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DirectedCycle.java)
+深度优先的顶点排序|[DepthFirstOrder](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DepthFirstOrder.java)
+优先级限制下的调度问题|[Topological](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Topological.java)
+拓扑排序|[Topological](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Topological.java)
+强连通性|[KosarajuSharirSCC](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/KosarajuSharirSCC.java)
+顶点对的可达性|[TransitiveClosure](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TransitiveClosure.java)
