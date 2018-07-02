@@ -96,3 +96,8 @@ quick-union算法|N|树的高度|树的高度
 拓扑排序|[Topological](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Topological.java)
 强连通性|[KosarajuSharirSCC](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/KosarajuSharirSCC.java)
 顶点对的可达性|[TransitiveClosure](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TransitiveClosure.java)
+
+* 4.7 最小生成树的Prim算法
+    * [最小生成树的Prim算法(延时版本)](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/LazyPrimMST.java)
+    * [最小生成树的Prim算法(即使版本)](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/PrimMST.java)
+* 4.8 [最小生成树的Kruskal算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/KruskalMST.java)
