@@ -105,7 +105,7 @@ quick-union算法|N|树的高度|树的高度
 
 ## 加权无向图
 
-* 4.7 最小生成树的Prim算法
+* 4.7 最小生成树的Prim算法(贪心算法)
     * [延时版本](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/LazyPrimMST.java)
     * [即使版本](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/PrimMST.java)
 * 4.8 [最小生成树的Kruskal算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/KruskalMST.java)
@@ -121,3 +121,10 @@ quick-union算法|N|树的高度|树的高度
 [Dijkstra算法(即时版本)](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/DijkstraSP.java)|边的权重必须为正|ElogV:ElogV|V|最坏情况下仍有较好的性能
 [无环加权有向图的最短路径算法(拓扑排序)](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/AcyclicSP.java)|只适合用于无环加权有向图|E+V:E+V|V|是无环图中的最优算法
 [基于队列的Bellman-Ford算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/BellmanFordSP.java)|不能存在负权重环|E+V:VE|V|适用领域广泛
+
+# 字符串
+
+## 字符串排序
+
+* 5.1 [低位优先的字符串排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/LSD.java)
+* 5.2 [高位优先的字符串排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/MSD.java)
