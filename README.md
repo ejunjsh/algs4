@@ -128,3 +128,29 @@ quick-union算法|N|树的高度|树的高度
 
 * 5.1 [低位优先的字符串排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/LSD.java)
 * 5.2 [高位优先的字符串排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/MSD.java)
+* 5.3 [三向字符串快速排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Quick3string.java)
+
+算法|是否稳定|原地排序|在将基于大小为R的字母表的N个字符串排序的过程中调用charAt()方法次数的增长数量级（平均长度为w,最大长度为W）运行时间:额外空间|优势领域
+-----|------|------|------|------
+字符串的插入排序|是|是|N到N^2之间:1|小数组或者是已经有序的数组
+快速排序|否|是|Nlog2N:logN|通用排序算法，特别适合用于空间不足的情况
+归并排序|是|否|Nlog2N:N|稳定的通用排序算法
+三向快速排序|否|是|N到NlogN之间:logN|大量重复键
+[低位优先的字符串排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/LSD.java)|是|否|NW:N|较短的定长字符串
+[高位优先的字符串排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/MSD.java)|是|否|N到Nw之间:N+WR|随机字符串
+[三向字符串快速排序](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/Quick3string.java)|否|是|N到Nw之间:W+logN|通用排序算法，特别适合用于含有较长前缀的字符串
+
+## 单词查找树
+
+* 5.4 [基于单词查找树的符号表](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TrieST.java)
+* 5.5 [基于三向单词查找树的符号表](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TST.java)
+
+算法(数据结构)|处理由大小为R的字母表构造的N个字符串(平均长度为w)的增长数量级,未命中查找检查的字符数量:内存使用|优点
+-----|------|------
+二叉树查找(BST)|c1(lgN)^2:64N|适用于随机排列的键
+2-3树查找(红黑树)|c2lgN)^2:64N|有性能保证
+线性探测法(并行数组)|w:32N~128N|内置类型缓存散列值
+[字典树查找(R向单词查找树)(https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TrieST.java)|logRN:(8R+56)N~(8R+56)Nw|适用于较短的键和较小的字母表
+[字典树查找(三向单词查找树)(https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TST.java)|1.39lgN:64N~64Nw|适用于非随机的键
+
+## 子字符串查找
