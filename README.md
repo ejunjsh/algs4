@@ -150,7 +150,7 @@ quick-union算法|N|树的高度|树的高度
 二叉树查找(BST)|c1(lgN)^2:64N|适用于随机排列的键
 2-3树查找(红黑树)|c2lgN)^2:64N|有性能保证
 线性探测法(并行数组)|w:32N~128N|内置类型缓存散列值
-[字典树查找(R向单词查找树)(https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TrieST.java)|logRN:(8R+56)N~(8R+56)Nw|适用于较短的键和较小的字母表
-[字典树查找(三向单词查找树)(https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TST.java)|1.39lgN:64N~64Nw|适用于非随机的键
+[字典树查找([R向单词查找树](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TrieST.java))|logRN:(8R+56)N~(8R+56)Nw|适用于较短的键和较小的字母表
+[字典树查找([三向单词查找树](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TST.java))|1.39lgN:64N~64Nw|适用于非随机的键
 
 ## 子字符串查找
