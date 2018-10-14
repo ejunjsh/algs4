@@ -154,3 +154,5 @@ quick-union算法|N|树的高度|树的高度
 [字典树查找(三向单词查找树)(https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/TST.java)|1.39lgN:64N~64Nw|适用于非随机的键
 
 ## 子字符串查找
+
+* 5.6 [Knuth-Morris-Pratt字符串查找算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/KMP.java)
