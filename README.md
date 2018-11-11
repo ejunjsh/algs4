@@ -156,3 +156,4 @@ quick-union算法|N|树的高度|树的高度
 ## 子字符串查找
 
 * 5.6 [Knuth-Morris-Pratt字符串查找算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/KMP.java)
+* 5.7 [Boyer-Moore字符串匹配算法(启发式地处理不匹配的字符)](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/BoyerMoore.java)
