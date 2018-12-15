@@ -157,3 +157,6 @@ quick-union算法|N|树的高度|树的高度
 
 * 5.6 [Knuth-Morris-Pratt字符串查找算法](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/KMP.java)
 * 5.7 [Boyer-Moore字符串匹配算法(启发式地处理不匹配的字符)](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/BoyerMoore.java)
+* 5.8 [Rabin-Karp指纹字符串查找算法（拉斯维加斯，书上是蒙特卡洛）](https://github.com/ejunjsh/algs4/blob/master/src/main/java/edu/princeton/cs/algs4/RabinKarp.java)
+
+[![](https://raw.githubusercontent.com/ejunjsh/algs4/master/images/substring.jpg)](https://raw.githubusercontent.com/ejunjsh/algs4/master/images/substring.jpg)
